@@ -1,10 +1,22 @@
 import React from 'react';
-import StyledButton from './style';
+import { StyledButton, StyledButtonSuccess, StyledButtonDanger } from './style';
 
-function Button() {
+function Button({ handleClick }) {
     return (
-        <StyledButton>This is a Button</StyledButton>
+        <StyledButton onClick={() => handleClick()}>This is a Button</StyledButton>
     );
-  }
+}
+
+export function ButtonSuccess() {
+    return (
+        <StyledButtonSuccess>This is a Button</StyledButtonSuccess>
+    );
+}
+
+export function ButtonDanger() {
+    return (
+        <StyledButtonDanger>This is a Button</StyledButtonDanger>
+    );
+}
 
 export default Button;

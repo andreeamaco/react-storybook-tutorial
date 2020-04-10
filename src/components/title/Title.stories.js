@@ -1,5 +1,6 @@
 import React from 'react';
 import Title from './Title';
+import { backgrounds} from '../../utilities';
 
 export default {
   title: 'Title',
@@ -15,5 +16,6 @@ Default.story = {
 
 Reverse.story = {
     name: 'reverse',
+    decorators: [story => <div style={{ background: `${backgrounds.info800}` }}>{story()}</div>],
 }
 
