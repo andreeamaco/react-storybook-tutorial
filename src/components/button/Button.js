@@ -7,15 +7,15 @@ function Button({onClick, reverse, children}) {
     );
 }
 
-export function ButtonSuccess({onClick}) {
+export function ButtonSuccess({onClick, children}) {
     return (
-        <StyledButtonSuccess onClick={onClick}>Success button</StyledButtonSuccess>
+        <StyledButtonSuccess onClick={onClick}>{children}</StyledButtonSuccess>
     );
 }
 
-export function ButtonDanger({onClick}) {
+export function ButtonDanger({onClick, children}) {
     return (
-        <StyledButtonDanger onClick={onClick}>Danger button</StyledButtonDanger>
+        <StyledButtonDanger onClick={onClick}>{children}</StyledButtonDanger>
     );
 }
 

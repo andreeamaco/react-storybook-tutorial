@@ -25,4 +25,12 @@ export const WrapperImage = styled.img`
   max-height: 240px;
   width: 960px;
   object-fit: cover;
+  position: relative;
+  background-image: url('cat.png');
+  z-index: 0;
+`
+export const H1 = styled.h1`
+  position: absolute;
+  top: 20%;
+  left: 10%;
 `

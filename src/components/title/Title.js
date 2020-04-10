@@ -1,9 +1,9 @@
 import React from 'react';
 import Heading1 from './style';
 
-function Title({reverse}) {
+function Title({reverse, children}) {
     return (
-        <Heading1 reverse={reverse}>This is the Title</Heading1>
+        <Heading1 reverse={reverse}>{children}</Heading1>
     );
   }
 
