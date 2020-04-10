@@ -1,15 +1,37 @@
 import React from 'react';
-import { Wrapper } from './style';
+import { Wrapper, WrapperLight, WrapperImage, WrapperDark } from './style';
 import Title from '../title/Title';
 import Button from '../button/Button';
 
-function HeroBanner() {
+export function HeroBanner({onClick}) {
     return (
         <Wrapper>
             <Title />
-            <Button />
+            <Button onClick={onClick}/>
         </Wrapper>
     );
-  }
+}
 
-export default HeroBanner;
+export function HeroBannerLight({onClick}) {
+    return (
+        <WrapperLight>
+            <Title />
+            <Button onClick={onClick}/>
+        </WrapperLight>
+    );
+}
+
+export function HeroBannerDark({onClick}) {
+    return (
+        <WrapperDark>
+            <Title reverse/>
+            <Button reverse onClick={onClick}/>
+        </WrapperDark>
+    );
+}
+
+export function HeroBannerImage({src}) {
+    return (
+        <WrapperImage src={src} alt=""/>
+    );
+}

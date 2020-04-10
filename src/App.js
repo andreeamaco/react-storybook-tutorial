@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import HeroBanner from './components/heroBanner/HeroBanner';
+import { HeroBanner } from './components/heroBanner/HeroBanner';
 
 function App() {
   return (

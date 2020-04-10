@@ -1,21 +1,21 @@
 import React from 'react';
 import { StyledButton, StyledButtonSuccess, StyledButtonDanger } from './style';
 
-function Button({ handleClick }) {
+function Button({onClick, reverse, children}) {
     return (
-        <StyledButton onClick={() => handleClick()}>This is a Button</StyledButton>
+        <StyledButton reverse={reverse} onClick={onClick}>{children}</StyledButton>
     );
 }
 
-export function ButtonSuccess() {
+export function ButtonSuccess({onClick}) {
     return (
-        <StyledButtonSuccess>This is a Button</StyledButtonSuccess>
+        <StyledButtonSuccess onClick={onClick}>Success button</StyledButtonSuccess>
     );
 }
 
-export function ButtonDanger() {
+export function ButtonDanger({onClick}) {
     return (
-        <StyledButtonDanger>This is a Button</StyledButtonDanger>
+        <StyledButtonDanger onClick={onClick}>Danger button</StyledButtonDanger>
     );
 }
 
