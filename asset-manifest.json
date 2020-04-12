@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-storybook-tutorial/static/css/main.45b2bdba.chunk.css",
-    "main.js": "/react-storybook-tutorial/static/js/main.de730df1.chunk.js",
-    "main.js.map": "/react-storybook-tutorial/static/js/main.de730df1.chunk.js.map",
+    "main.js": "/react-storybook-tutorial/static/js/main.225ce9f9.chunk.js",
+    "main.js.map": "/react-storybook-tutorial/static/js/main.225ce9f9.chunk.js.map",
     "runtime-main.js": "/react-storybook-tutorial/static/js/runtime-main.155764ed.js",
     "runtime-main.js.map": "/react-storybook-tutorial/static/js/runtime-main.155764ed.js.map",
     "static/js/2.8625fa98.chunk.js": "/react-storybook-tutorial/static/js/2.8625fa98.chunk.js",
     "static/js/2.8625fa98.chunk.js.map": "/react-storybook-tutorial/static/js/2.8625fa98.chunk.js.map",
     "index.html": "/react-storybook-tutorial/index.html",
-    "precache-manifest.8502cdf94ab31ba1882a3e2a3ca29ef3.js": "/react-storybook-tutorial/precache-manifest.8502cdf94ab31ba1882a3e2a3ca29ef3.js",
+    "precache-manifest.bbd19931811758b6b953bdb19cac09d9.js": "/react-storybook-tutorial/precache-manifest.bbd19931811758b6b953bdb19cac09d9.js",
     "service-worker.js": "/react-storybook-tutorial/service-worker.js",
     "static/css/main.45b2bdba.chunk.css.map": "/react-storybook-tutorial/static/css/main.45b2bdba.chunk.css.map",
     "static/js/2.8625fa98.chunk.js.LICENSE.txt": "/react-storybook-tutorial/static/js/2.8625fa98.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.155764ed.js",
     "static/js/2.8625fa98.chunk.js",
     "static/css/main.45b2bdba.chunk.css",
-    "static/js/main.de730df1.chunk.js"
+    "static/js/main.225ce9f9.chunk.js"
   ]
 }
