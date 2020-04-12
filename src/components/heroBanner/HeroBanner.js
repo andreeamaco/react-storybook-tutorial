@@ -1,5 +1,5 @@
-import React from 'react';
-import { Wrapper, WrapperLight, WrapperImage, WrapperDark, H1 } from './style';
+import React, {useState} from 'react';
+import { Wrapper, WrapperLight, WrapperImage, WrapperDark, H1, PaginationButton } from './style';
 import Title from '../title/Title';
 import Button from '../button/Button';
 
@@ -30,11 +30,25 @@ export function HeroBannerDark({onClick, children, title}) {
     );
 }
 
-export function HeroBannerImage({src, title}) {
+export function HeroBannerImage({state, title}) {
+
+    state = {
+        src: [
+            'cat.jpg',
+            'cat1.jpg',
+            'cat2.jpg',
+            'cat3.jpg'
+        ],
+    }
+
+    const [index, handleIndex] = useState(0);
+    
     return (
         <Wrapper>
-            <WrapperImage src={src} alt=""/>
+            <WrapperImage src={state.src[index]} alt=""/>
             <H1>{title}</H1>
+            <PaginationButton onClick={() => handleIndex(index + 1)}></PaginationButton>
+            <PaginationButton onClick={() => handleIndex(index - 1)}></PaginationButton>
         </Wrapper>
     );
 }

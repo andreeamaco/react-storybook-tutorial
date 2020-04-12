@@ -34,3 +34,22 @@ export const H1 = styled.h1`
   top: 20%;
   left: 10%;
 `
+
+export const PaginationButton = styled.button`
+  height: 12px;
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -20%;
+  margin: auto;
+  display: block;
+
+  &:hover {
+    background-color: ${backgrounds.primary800};
+  }
+
+  &:first-of-type {
+   margin-left: 15px;
+  }
+`
