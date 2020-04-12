@@ -12,10 +12,10 @@ export default {
 
 export const Default = () => {
     const title = text('Title', 'Default title');
-    const button = text('Button text', 'Button')
+    const btnText = text('Button text', 'Button')
     return (
      <HeroBanner onClick={action('button was clicked')} title={title}>
-        {button}
+        {btnText}
      </HeroBanner>
     )
 };
@@ -26,10 +26,10 @@ Default.story = {
 
 export const Light = () => {
     const title = text('Title', 'Title');
-    const button = text('Button text', 'Button');
+    const btnText = text('Button text', 'Button');
     return (
     <HeroBannerLight onClick={action('button was clicked')} title={title}>
-        {button}
+        {btnText}
     </HeroBannerLight>
     )
 };
@@ -40,10 +40,10 @@ Light.story = {
 
 export const Dark = () => {
     const title = text('Title', 'Title');
-    const button = text('Button text', 'Button');
+    const btnText = text('Button text', 'Button');
     return (
     <HeroBannerDark onClick={action('button was clicked')} title={title}>
-        {button}
+        {btnText}
     </HeroBannerDark>
     )
 };

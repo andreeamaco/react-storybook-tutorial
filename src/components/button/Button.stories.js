@@ -11,10 +11,10 @@ export default {
 };
 
 export const Primary = () => {
-    const title = text('Title', 'Primary button');
+    const btnText = text('Title', 'Primary button');
     return (
     <Button onClick={action('button was clicked')}>
-        {title}
+        {btnText}
     </Button>
     )
 };
@@ -24,10 +24,10 @@ Primary.story = {
 }
 
 export const Reverse = () => {
-    const title = text('Title', 'Reverse button');
+    const btnText = text('Title', 'Reverse button');
     return (
     <Button reverse onClick={action('button was clicked')}>
-        {title}
+        {btnText}
     </Button>
     )
 };
@@ -37,10 +37,10 @@ Reverse.story = {
 }
 
 export const Danger = () => {
-    const title = text('Title', 'Danger button');
+    const btnText = text('Title', 'Danger button');
     return (
     <ButtonDanger onClick={action('button was clicked')}>
-        {title}
+        {btnText}
     </ButtonDanger>
     )
 };
@@ -50,10 +50,10 @@ Danger.story = {
 }
 
 export const Success = () => {
-    const title = text('Title', 'Success button');
+    const btnText = text('Title', 'Success button');
     return (
     <ButtonSuccess onClick={action('button was clicked')}>
-        {title}
+        {btnText}
     </ButtonSuccess>
     )
 };

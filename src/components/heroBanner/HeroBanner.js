@@ -4,29 +4,33 @@ import { ButtonBullet } from '../button/style';
 import Title from '../title/Title';
 import Button from '../button/Button';
 
-export function HeroBanner({onClick, children, title}) {
+export function HeroBanner({onClick}) {
+
+    const title="Title";
+    const btnText="Button text";
+
     return (
         <Wrapper>
             <Title>{title}</Title>
-            <Button onClick={onClick}>{children}</Button>
+            <Button onClick={onClick}>{btnText}</Button>
         </Wrapper>
     );
 }
 
-export function HeroBannerLight({onClick, children, title}) {
+export function HeroBannerLight({onClick, btnText, title}) {
     return (
         <WrapperLight>
             <Title>{title}</Title>
-            <Button onClick={onClick}>{children}</Button>
+            <Button onClick={onClick}>{btnText}</Button>
         </WrapperLight>
     );
 }
 
-export function HeroBannerDark({onClick, children, title}) {
+export function HeroBannerDark({onClick, btnText, title}) {
     return (
         <WrapperDark>
             <Title reverse>{title}</Title>
-            <Button reverse onClick={onClick}>{children}</Button>
+            <Button reverse onClick={onClick}>{btnText}</Button>
         </WrapperDark>
     );
 }
