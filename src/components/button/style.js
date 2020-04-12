@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {colors} from '../../utilities';
+import {colors, backgrounds } from '../../utilities';
 
 export const StyledButton = styled.button`
   color: ${props => props.reverse ? colors.white : colors.primary500};
@@ -37,4 +37,23 @@ export const StyledButtonDanger = styled(StyledButton)`
         background-color: ${colors.danger500};
         cursor: pointer;
     }
+`
+
+export const ButtonBullet = styled.button`
+  height: 12px;
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -20%;
+  margin: auto;
+  display: block;
+
+  &:hover {
+    background-color: ${backgrounds.primary800};
+  }
+
+  &:last-of-type {
+   margin-left: 15px;
+  }
 `

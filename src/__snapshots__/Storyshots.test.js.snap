@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button bullet 1`] = `
+<div
+  style={
+    Object {
+      "height": "120px",
+      "position": "relative",
+      "width": "960px",
+    }
+  }
+>
+  <button
+    className="sc-AxhCb dgvYqD"
+    onClick={[Function]}
+  />
+  <button
+    className="sc-AxhCb dgvYqD"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`Storyshots Button danger 1`] = `
+<button
+  className="sc-AxjAm sc-AxiKw cDYtCK"
+  onClick={[Function]}
+>
+  Danger button
+</button>
+`;
+
+exports[`Storyshots Button primary 1`] = `
+<button
+  className="sc-AxjAm fbBVKT"
+  onClick={[Function]}
+>
+  Primary button
+</button>
+`;
+
+exports[`Storyshots Button reverse 1`] = `
+<button
+  className="sc-AxjAm csqmdS"
+  onClick={[Function]}
+>
+  Reverse button
+</button>
+`;
+
+exports[`Storyshots Button success 1`] = `
+<button
+  className="sc-AxjAm sc-AxirZ WbloD"
+  onClick={[Function]}
+>
+  Success button
+</button>
+`;
+
+exports[`Storyshots HeroBanner dark 1`] = `
+<div
+  className="sc-AxhUy sc-AxheI carXnU"
+>
+  <h1
+    className="sc-fzozJi cfZmir"
+  >
+    Title
+  </h1>
+  <button
+    className="sc-AxjAm csqmdS"
+    onClick={[Function]}
+  >
+    Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots HeroBanner default 1`] = `
+<div
+  className="sc-AxhUy eHNlSW"
+>
+  <h1
+    className="sc-fzozJi fmVcpV"
+  >
+    Default title
+  </h1>
+  <button
+    className="sc-AxjAm fbBVKT"
+    onClick={[Function]}
+  >
+    Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots HeroBanner image 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      className="sc-AxhUy eHNlSW"
+    >
+      <img
+        alt=""
+        className="sc-Axmtr dqAslq"
+        src="cat.jpg"
+      />
+      <h1
+        className="sc-AxmLO GvYGd"
+      >
+        This is the title
+      </h1>
+      <button
+        className="sc-AxhCb dgvYqD"
+        onClick={[Function]}
+      />
+      <button
+        className="sc-AxhCb dgvYqD"
+        onClick={[Function]}
+      />
+    </div>
+  </div>,
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": 12,
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>,
+]
+`;
+
+exports[`Storyshots HeroBanner light 1`] = `
+<div
+  className="sc-AxhUy sc-AxgMl fpoSBq"
+>
+  <h1
+    className="sc-fzozJi fmVcpV"
+  >
+    Title
+  </h1>
+  <button
+    className="sc-AxjAm fbBVKT"
+    onClick={[Function]}
+  >
+    Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Title default 1`] = `
+<h1
+  className="sc-fzozJi fmVcpV"
+>
+  Title
+</h1>
+`;
+
+exports[`Storyshots Title reverse 1`] = `
+<div
+  style={
+    Object {
+      "background": "#05388E",
+    }
+  }
+>
+  <h1
+    className="sc-fzozJi cfZmir"
+  >
+    Title
+  </h1>
+</div>
+`;

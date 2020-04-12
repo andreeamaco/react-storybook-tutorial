@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import { Wrapper, WrapperLight, WrapperImage, WrapperDark, H1, PaginationButton } from './style';
+import { Wrapper, WrapperLight, WrapperImage, WrapperDark, H1 } from './style';
+import { ButtonBullet } from '../button/style';
 import Title from '../title/Title';
 import Button from '../button/Button';
 
@@ -47,8 +48,8 @@ export function HeroBannerImage({state, title}) {
         <Wrapper>
             <WrapperImage src={state.src[index]} alt=""/>
             <H1>{title}</H1>
-            <PaginationButton onClick={() => handleIndex(index + 1)}></PaginationButton>
-            <PaginationButton onClick={() => handleIndex(index - 1)}></PaginationButton>
+            <ButtonBullet onClick={() => handleIndex(index + 1)}></ButtonBullet>
+            <ButtonBullet onClick={() => handleIndex(index - 1)}></ButtonBullet>
         </Wrapper>
     );
 }

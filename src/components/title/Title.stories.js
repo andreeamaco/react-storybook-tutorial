@@ -33,6 +33,6 @@ Default.story = {
 
 Reverse.story = {
     name: 'reverse',
-    decorators: [story => <div style={{ background: `${backgrounds.info800}` }}>{story()}</div>],
+    decorators: [story => <div style={{ background: `${backgrounds.primary800}` }}>{story()}</div>],
 }
 
